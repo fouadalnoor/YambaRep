@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">yamba</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="status_update">Status Update</string>
+    <string name="button_update">Update Status</string>
+    <string name="hint">Enter Status Update</string>
+    <string name="start_service">Start Service</string>
+    <string name="stop_service">Stop Service</string>
+    <string name="refresh">Refresh Service</string>
+    <string name="username">User Name</string>
+    <string name="username_summary">"Enter your online username "</string>
+    <string name="password">Password</string>
+    <string name="password_summary">Please enter login password</string>
+    <string name="server">Please Enter API Root</string>
+    <string name="preferences">Preferences</string>
+    <string name="delay">Delay</string>
+    <string name="delay_summary">Frequency of Updates</string>
+    <string-array name="delayNames">
+        <item >Never Update</item>
+        <item >Every 10 Seconds</item>
+        <item >Every 15 Minutess</item>
+        <item >Every 30 minutes</item>   
+        <item >Every hour </item>
+        <item >Every half a day </item>
+        <item >Once day</item>  
+    </string-array>
+    
+      <string-array name="delayValues">
+          <item > 0</item>
+          <item > 10000</item>
+        <item > 900000</item>
+        <item > 1800000</item>
+        <item > 3600000</item>
+        <item > 43200000</item>
+        <item > 86400000</item>
+
+    </string-array>
+        <string name="timeline">Timeline</string>
+    
+</resources>
